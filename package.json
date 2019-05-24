@@ -1,5 +1,5 @@
 {
-  "name": "create-next-example-app",
+  "name": "starter-kit",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -15,5 +15,18 @@
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-file-loader": "^1.1.1",
+    "babel-plugin-transform-assets": "^1.0.2",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.15.0",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^0.0.0",
+    "flow-bin": "^0.90.0"
   }
 }

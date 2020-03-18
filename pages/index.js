@@ -10,6 +10,7 @@ const Home = () => (
 
     <div className="hero">
       <h1 className="title">Welcome to Next!</h1>
+      <h2 className="content">Content</h2>
       <p className="description">
         To get started, edit
         {' '}
@@ -51,6 +52,10 @@ site
       .hero {
         width: 100%;
         color: #333;
+      }
+      .content {
+        color: red;
+        text-align: center;
       }
       .title {
         margin: 0;
